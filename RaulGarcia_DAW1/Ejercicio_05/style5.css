@@ -1,0 +1,39 @@
+/* 
+Nombre: Raúl García Manotas 
+Curso: DAW 1 
+Fecha: 05/03/2025 
+Ejercicio:  Grid Layout (Más Complejo 🚀) 
+*/
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 200px;
+    gap: 10px; 
+}
+
+.celda-1 {
+    background-color: blueviolet;
+}
+
+.celda-2 {
+    background-color: greenyellow;
+}
+
+.celda-3 {
+    background-color: grey;
+}
+
+.celda-4 {
+    background-color: pink;
+}
+
+.celda-5 {
+    background-color: red;
+}
+
+.celda-6 {
+    background-color: cyan;
+}
+

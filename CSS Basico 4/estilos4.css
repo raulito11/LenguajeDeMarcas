@@ -1,0 +1,14 @@
+ /* only-child para el único elemento li */
+ #fechainicio li:only-child {
+    color: blue;
+ }
+
+ /* only-child para el único elemento p */
+ #equipo1 p:only-of-type {
+    color: red;
+ }
+
+ /* only-of-type para el único elemento h1 de su tipo */
+ #equipo1 h1:only-of-type, #equipo2 h1:only-of-type {
+    font-size: 2em;
+ }

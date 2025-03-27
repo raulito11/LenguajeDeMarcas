@@ -1,0 +1,36 @@
+/* 
+Nombre: Raúl García Manotas 
+Curso: DAW 1 
+Fecha: 05/03/2025 
+Ejercicio: Flexbox 
+*/
+
+
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.cajas {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.caja-1 {
+    background-color: red;
+}
+
+.caja-2 {
+    background-color: green;
+}
+
+.caja-3 {
+    background-color: blue;
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [20/03/2025]
+Ejercicios XML 2
+Ejercicio: [Ejercicio 4]
+-->
+
+
+<modulo>
+    <!-- Información del módulo -->
+    <nombre>Lenguajes de Marcas</nombre>
+    <caracteristica obligatorio="true">Obligatorio</caracteristica>
+    <horas_semanales>4</horas_semanales>
+    <periodo>
+        <inicio>2023-09-15</inicio>
+        <fin>2024-06-22</fin>
+    </periodo>
+    <!-- Listado de alumnos -->
+    <alumnos>
+        <!-- Definición de un alumno -->
+        <alumno>
+            <!-- Información personal del alumno -->
+            <nombre>Ana Fernández Gutiérrez</nombre>
+            <dni>51623487V</dni>
+            <telefono>666544566</telefono>
+            <email>anafernandez@gmail.com</email>
+            <direccion>
+                <calle>C/ Amatista, 14</calle>
+                <codigo_postal>28905</codigo_postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <!-- Información adicional -->
+            <notas>No registradas</notas>
+            <faltas_asistencia>No registradas</faltas_asistencia>
+        </alumno>
+        <!-- Definición de un alumno -->
+        <alumno>
+            <!-- Información personal del alumno -->
+            <nombre>Carlos López Sánchez</nombre>
+            <dni>52369874B</dni>
+            <telefono>666455477</telefono>
+            <email>carloslopez@gmail.com</email>
+            <direccion>
+                <calle>C/ Ópalo, 15</calle>
+                <codigo_postal>28905</codigo_postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <!-- Información adicional -->
+            <notas>Apto</notas>
+            <faltas_asistencia>Ninguna</faltas_asistencia>
+        </alumno>
+    </alumnos>
+</modulo>

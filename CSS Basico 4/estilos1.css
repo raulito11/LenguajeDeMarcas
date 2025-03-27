@@ -1,0 +1,9 @@
+ /* Fija en color verde el primer elemento */
+ ol li:first-child {
+    color: green;
+}
+   
+/* Fija en color rojo el último elemento */
+ol li:last-child {
+    color: red;
+}

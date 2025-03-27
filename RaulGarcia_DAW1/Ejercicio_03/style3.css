@@ -1,0 +1,21 @@
+/* 
+Nombre: Raúl García Manotas 
+Curso: DAW 1 
+Fecha: 05/03/2025 
+Ejercicio: Modelo de Caja 
+*/
+
+
+
+.caja {
+    width: 300px;
+    height: 150px;
+    background-color: yellow;
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

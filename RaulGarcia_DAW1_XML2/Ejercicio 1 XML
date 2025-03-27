@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [20/03/2025]
+Ejercicios XML 2
+Ejercicio: [Ejercicio 1]
+-->
+
+<Marcadores>
+    <Marcador>
+        <!-- Primer Marcador -->
+        <Nombre>W3Schools</Nombre>
+        <Descripcion>Tutoriales de informática.</Descripcion>
+        <URL>https://www.w3schools.com/</URL>
+    </Marcador>
+    <Marcador>
+        <!-- Segundo Marcador -->
+        <Nombre>Wikipedia</Nombre>
+        <Descripcion>La enciclopedia libre.</Descripcion>
+        <URL>http://www.wikipedia.org/</URL>
+    </Marcador>
+    <Marcador>
+        <!-- Tercer Marcador -->
+        <Nombre>W3C</Nombre>
+        <Descripcion>World Wide Web Consortium.</Descripcion>
+        <URL>http://www.w3.org/</URL>
+    </Marcador>
+</Marcadores>

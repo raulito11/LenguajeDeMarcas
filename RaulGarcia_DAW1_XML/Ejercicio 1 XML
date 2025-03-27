@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [20/03/2025]
+Ejercicio: [Ejercicio 1]
+-->
+
+<ciudades>
+    <!-- Definición de una ciudad -->
+    <ciudad>
+        <!-- Nombre de la ciudad -->
+        <nombre>Nueva Delhi</nombre>
+        <!-- Pais y continente al que pertenece -->
+        <pais continente="Asia">India</pais>
+    </ciudad>
+    <!-- Definición de una ciudad -->
+    <ciudad>
+        <!-- Nombre de la ciudad -->
+        <nombre>Lisboa</nombre>
+        <!-- Pais y continente al que pertenece -->
+        <pais continente="Europa">Portugal</pais>
+    </ciudad>
+    <!-- Definición de una ciudad -->
+    <ciudad>
+        <!-- Nombre de la ciudad -->
+        <nombre>El Cairo</nombre>
+        <!-- Pais y continente al que pertenece -->
+        <pais continente="África">Egipto</pais>
+    </ciudad>
+</ciudades>

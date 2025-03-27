@@ -1,0 +1,6 @@
+div {
+    width: 80%;
+    height: 50px;
+    background-color: yellow; /* Color de fondo para visualizar mejor el div */
+    margin: 0 auto; /* Centra el div horizontalmente */
+ }

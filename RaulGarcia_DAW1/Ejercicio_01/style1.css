@@ -1,0 +1,28 @@
+/* 
+Nombre: Raúl García Manotas 
+Curso: DAW 1 
+Fecha: 05/03/2025 
+Ejercicio: Aplicar Estilos Básicos 
+*/
+
+
+
+/* Color de fondo para toda la página */
+body {
+    background-color: #ff0000;
+}
+
+/* Color del texto a azul en los p */
+p {
+    color: blue;
+}
+
+/* Margen de 20px a los h1 */
+h1 {
+    margin: 20px;
+}
+
+/* Borde de 2px sólido negro para los div */
+div {
+    border: 2px solid black;
+}

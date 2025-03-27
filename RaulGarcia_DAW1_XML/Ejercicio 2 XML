@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [20/03/2025]
+Ejercicio: [Ejercicio 2]
+-->
+
+<hechos_historicos>
+    <!-- Primer hecho historico -->
+    <hecho descripcion="IBM da a conocer el PC.">
+        <!-- Fecha del hecho -->
+        <fecha>
+            <dia>12</dia>
+            <mes>8</mes>
+            <año>1981</año>
+        </fecha>
+    </hecho>
+    <!-- Segundo hecho historico -->
+    <hecho descripcion="Se funda Google.">
+        <!-- Fecha del hecho -->
+        <fecha>
+            <dia>4</dia>
+            <mes>9</mes>
+            <año>1998</año>
+        </fecha>
+    </hecho>
+    <!-- Tercer hecho historico -->
+    <hecho descripcion="Se funda Facebook.">
+        <!-- Fecha del hecho -->
+        <fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <año>2004</año>
+        </fecha>
+    </hecho>
+</hechos_historicos>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [20/03/2025]
+Ejercicios XML 2
+Ejercicio: [Ejercicio 2]
+-->
+
+
+<Equipos>
+    <Equipo>
+        <!-- Primer Equipo -->
+        <Nombre>Real Madrid</Nombre>
+        <Ciudad>Madrid</Ciudad>
+        <Jugadores>
+            <!-- Primer Jugador -->
+            <Jugador posicion="portero">
+                <Nombre>Thibaut Courtois</Nombre>
+                <Nacionalidad>Bélgica</Nacionalidad>
+            </Jugador>
+            <!-- Segundo Jugador -->
+            <Jugador posicion="delantero">
+                <Nombre>Kilian Mbappe</Nombre>
+                <Nacionalidad>Francia</Nacionalidad>
+            </Jugador>
+        </Jugadores>
+    </Equipo>
+    <!-- Segundo Equipo -->
+    <Equipo>
+        <Nombre>Barcelona</Nombre>
+        <Ciudad>Barcelona</Ciudad>
+        <Jugadores>
+            <!-- Primer Jugador -->
+            <Jugador posicion="defensa">
+                <Nombre>Ronald Araújo</Nombre>
+                <Nacionalidad>Uruguay</Nacionalidad>
+            </Jugador>
+            <!-- Segundo Jugador -->
+            <Jugador posicion="medio">
+                <Nombre>Pedri González</Nombre>
+                <Nacionalidad>España</Nacionalidad>
+            </Jugador>
+        </Jugadores>
+    </Equipo>
+</Equipos>

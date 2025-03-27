@@ -1,0 +1,4 @@
+ /* Subraya los títulos en posición impar */
+ #contenido h1:nth-of-type(odd) {
+    text-decoration: underline;
+    }

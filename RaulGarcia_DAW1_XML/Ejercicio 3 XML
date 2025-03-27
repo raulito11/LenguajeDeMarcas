@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [20/03/2025]
+Ejercicio: [Ejercicio 3]
+-->
+
+<libros>   
+    <!-- Primer libro -->
+    <libro titulo="Harry Potter y la piedra filosofal" autor="J.K. Rowling" año="1997" />
+    <!-- Segundo libro -->
+    <libro titulo="El Señor de los Anillos" autor="J.R.R. Tolkien" año="1954" />
+    <!-- Tercer libro -->
+    <libro titulo="Los Futbolísimos: El misterio de los árbitros dormidos" autor="Roberto Santiago" año="2013" />
+</libros>

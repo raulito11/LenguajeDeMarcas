@@ -1,0 +1,27 @@
+/* 
+Nombre: Raúl García Manotas 
+Curso: DAW 1 
+Fecha: 05/03/2025 
+Ejercicio: Selectores en CSS 
+*/
+
+/* Texto de la clase .destacado a color rojo */
+.destacado {
+    color: red;
+}
+
+/* Texto del p dentro del <div id="caja"> a color verde */
+#caja p {
+    color: green;
+}
+
+/* Todos los <h1> con un tamaño de fuente de 30px */
+h1 {
+    font-size: 30px;
+}
+
+/* Fondo gris a todos los elementos <p> dentro de <div> */
+div p {
+    background-color: gray;
+}
+
