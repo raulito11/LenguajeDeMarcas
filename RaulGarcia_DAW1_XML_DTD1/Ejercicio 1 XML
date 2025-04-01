@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [31/03/2025]
+Ejercicios XML DTD 1
+Ejercicio: [Ejercicio 1]
+-->
+
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (titulo, editorial, autor, paginas)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT autor (nombre, apellidos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT paginas (#PCDATA)>
+]>
+
+<biblioteca>
+    <libro>
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <editorial>Bloomsbury</editorial>
+        <autor>
+            <nombre>J.K.</nombre>
+            <apellidos>Rowling</apellidos>
+        </autor>
+        <paginas>223</paginas>
+    </libro>
+
+    <libro>
+        <titulo>El Señor de los Anillos</titulo>
+        <editorial>George Allen y Unwin</editorial>
+        <autor>
+            <nombre>J.R.R.</nombre>
+            <apellidos>Tolkien</apellidos>
+        </autor>
+        <paginas>1178</paginas>
+    </libro>
+
+    <libro>
+        <titulo>Los Futbolísimos: El misterio de los árbitros dormidos</titulo>
+        <editorial>SM</editorial>
+        <autor>
+            <nombre>Roberto</nombre>
+            <apellidos>Santiago</apellidos>
+        </autor>
+        <paginas>304</paginas>
+    </libro>
+</biblioteca>

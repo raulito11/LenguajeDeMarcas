@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [20/03/2025]
+Ejercicios XML 3
+Ejercicio: [Ejercicio 1]
+-->
+
+<catalogo>
+    <!-- Software de Sistemas Operativos -->
+    <os>
+        <nombre>Windows 11</nombre>
+        <version>22H2</version>
+        <desarrollador>Microsoft</desarrollador>
+        <url>https://www.microsoft.com/windows</url>
+    </os>
+    <os>
+        <nombre>Ubuntu</nombre>
+        <version>24.04</version>
+        <desarrollador>Canonical</desarrollador>
+        <url>https://ubuntu.com/</url>
+    </os>
+    <os>
+        <nombre>macOS Ventura</nombre>
+        <version>13.5</version>
+        <desarrollador>Apple</desarrollador>
+        <url>https://www.apple.com/macos/</url>
+    </os>
+
+    <!-- Software de Aplicaciones de Oficina -->
+    <office>
+        <nombre>Microsoft Word</nombre>
+        <version>2024</version>
+        <desarrollador>Microsoft</desarrollador>
+        <url>https://www.microsoft.com/word</url>
+    </office>
+    <office>
+        <nombre>LibreOffice Writer</nombre>
+        <version>7.6</version>
+        <desarrollador>The Document Foundation</desarrollador>
+        <url>https://www.libreoffice.org/</url>
+    </office>
+    <office>
+        <nombre>Google Docs</nombre>
+        <version>N/A</version>
+        <desarrollador>Google</desarrollador>
+        <url>https://docs.google.com/</url>
+    </office>
+</catalogo>
+

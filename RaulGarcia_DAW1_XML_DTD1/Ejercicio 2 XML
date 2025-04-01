@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [20/03/2025]
+Ejercicios XML DTD 1
+Ejercicio: [Ejercicio 2]
+-->
+
+<!DOCTYPE ligaBaloncesto SYSTEM "Ejercicio 2 DTD.dtd">
+
+<ligaBaloncesto>
+    <jugador>
+        <nombre>LeBron</nombre>
+        <apellidos>James</apellidos>
+        <equipo>
+            <ciudad>Los Angeles</ciudad>
+            <presidente>
+                <nombrePresidente>Jeanie</nombrePresidente>
+                <apellidosPresidente>Buss</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>39</edad>
+    </jugador>
+
+    <jugador>
+        <nombre>Stephen</nombre>
+        <apellidos>Curry</apellidos>
+        <equipo>
+            <ciudad>San Francisco</ciudad>
+            <presidente>
+                <nombrePresidente>Joe</nombrePresidente>
+                <apellidosPresidente>Lacob</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>36</edad>
+    </jugador>
+
+    <jugador>
+        <nombre>Giannis</nombre>
+        <apellidos>Antetokounmpo</apellidos>
+        <equipo>
+            <ciudad>Milwaukee</ciudad>
+            <presidente>
+                <nombrePresidente>Peter</nombrePresidente>
+                <apellidosPresidente>Feigin</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>29</edad>
+    </jugador>
+</ligaBaloncesto>

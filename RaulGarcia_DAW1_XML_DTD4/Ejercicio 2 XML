@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [20/03/2025]
+Ejercicios XML 2
+Ejercicio: [Ejercicio 2]
+-->
+
+<html>
+    <head>
+        <title>Book Review</title>
+    </head>
+    <body>
+        <book>
+            <book>Introducción a XML</book>
+            <table>
+                <tr align="center">
+                    <td>Author</td>
+                    <td>Price</td>
+                    <td>Pages</td>
+                    <td>Date</td>
+                </tr>
+                <tr align="left">
+                    <td><book:author>Simon St. Laurent</book:author></td>
+                    <td><book:price>31.98</book:price></td>
+                    <td><book:pages>352</book:pages></td>
+                    <td><book:date>1998/01</book:date></td>
+                </tr>
+            </table>
+        </book>
+    </body>
+</html>
+
+
