@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [03/04/2025]
+Ejercicios XML DTD 3
+Ejercicio: [Ejercicio 1]
+-->
+
+
+<!DOCTYPE cuento SYSTEM "ejerciciosDTD.dtd">
+
+<cuento cod="A01" título="El Dragón y la Princesa" género="fantasía">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Dragón Fuego</nombre>
+            <genero>M</genero>
+            <descripcion>Un dragón majestuoso y feroz guardián de un tesoro.</descripcion>
+            <!-- Se puede mostrar opcionalmente uno de estos: descripción_fisica, imagen o url -->
+            <imagen>dragon.jpg</imagen>
+        </personaje>
+        <personaje id="p2" tipo="secundario">
+            <nombre>Princesa Valiente</nombre>
+            <genero>F</genero>
+            <descripcion_fisica>Cabello largo y dorado, vestida de azul.</descripcion_fisica>
+        </personaje>
+    </personajes>
+    <trama>Un dragón y una princesa se embarcan en una aventura para salvar un reino en peligro.</trama>
+    <etiqueta nombre="aventura"/>
+    <etiqueta nombre="romance"/>
+    <precio moneda="usd">12.50</precio>
+</cuento>
+

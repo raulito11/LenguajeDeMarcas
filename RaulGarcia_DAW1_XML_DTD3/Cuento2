@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: [Raúl García Manotas]
+Curso: [DAW 1]
+Fecha: [03/04/2025]
+Ejercicios XML DTD 3
+Ejercicio: [Ejercicio 1]
+-->
+
+
+<!DOCTYPE cuento SYSTEM "ejercicioDTD.dtd">
+
+<cuento cod="B02" título="La Sombra del Bosque" género="terror">
+    <personajes>
+        <personaje id="p3" tipo="principal">
+            <nombre>El Lobo</nombre>
+            <genero>M</genero>
+            <descripcion>Una criatura misteriosa que acecha en la oscuridad del bosque.</descripcion>
+        </personaje>
+        <personaje id="p4">
+            <nombre>La Cazadora</nombre>
+            <genero>F</genero>
+            <!-- En este caso se opta por incluir una URL -->
+            <url>http://imagencazadora.com</url>
+        </personaje>
+    </personajes>
+    <trama>En un bosque oscuro se entrelazan leyendas de un lobo espectral y una cazadora decidida a desentrañar sus secretos.</trama>
+    <!-- No se han incluido etiquetas ni precio en este ejemplo -->
+</cuento>
+
+
+
