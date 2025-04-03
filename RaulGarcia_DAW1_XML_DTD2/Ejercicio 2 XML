@@ -3,34 +3,35 @@
 <!--
 Nombre: [Raúl García Manotas]
 Curso: [DAW 1]
-Fecha: [20/03/2025]
-Ejercicios XML 2
+Fecha: [03/04/2025]
+Ejercicios XML DTD 2
 Ejercicio: [Ejercicio 2]
 -->
 
-<html>
-    <head>
-        <title>Book Review</title>
-    </head>
-    <body>
-        <book>
-            <book>Introducción a XML</book>
-            <table>
-                <tr align="center">
-                    <td>Author</td>
-                    <td>Price</td>
-                    <td>Pages</td>
-                    <td>Date</td>
-                </tr>
-                <tr align="left">
-                    <td><book:author>Simon St. Laurent</book:author></td>
-                    <td><book:price>31.98</book:price></td>
-                    <td><book:pages>352</book:pages></td>
-                    <td><book:date>1998/01</book:date></td>
-                </tr>
-            </table>
-        </book>
-    </body>
-</html>
 
+<!DOCTYPE EquiposNBA [
+    <!ELEMENT EquiposNBA (equipo|nombre)+>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT equipo (titulos, posicion, quinteto)>
+    <!ATTLIST equipo conferencia CDATA #REQUIRED>
+    <!ELEMENT titulos (#PCDATA)>
+    <!ELEMENT posicion (#PCDATA)>
+    <!ELEMENT quinteto (#PCDATA)>
+]>
 
+<EquiposNBA>
+    <!-- Equipo 1 -->
+    <equipo conferencia="Este">
+        <nombre>Miami Heat</nombre>
+        <titulos>3</titulos>
+        <posicion>5</posicion>
+        <quinteto>Jimmy Butler, Bam Adebayo, Tyler Herro, Kyle Lowry, Kevin Love</quinteto>
+    </equipo>
+    <!-- Equipo 2 -->
+    <equipo conferencia="Oeste">
+        <nombre>Golden State Warriors</nombre>
+        <titulos>7</titulos>
+        <posicion>3</posicion>
+        <quinteto>Stephen Curry, Klay Thompson, Draymond Green, Andrew Wiggins, Kevon Looney</quinteto>
+    </equipo>
+</EquiposNBA>
